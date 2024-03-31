@@ -1,0 +1,35 @@
+#pat_name{
+    background-color: #16a085;
+    border-radius: 10px;
+}
+body{
+    background-color: #16a085;
+}
+.container{
+    border: 1px black solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.doc_pres .topic{
+    text-align: center;
+}
+.dis_name{
+    padding-left: 100px;
+}
+.dis_doc{
+    padding-left: 100px;
+}
+.dis_pres{
+    padding-left: 100px;
+}
+.dis_remark{
+    padding-left: 100px;
+}
+.dis_advice{
+    padding-left: 100px;
+}
+.download_button{
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>Login Page</title>
+        </head>
+        <link type="text/css" rel="stylesheet" href="{{url_for("static",filename="/css/style2.css")}}">
+        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <body>
+            <div class="container">
+                <div class="register">
+                    <form class="form" name="myform" action=""methods="">
+                        <h3>Admin Login Form</h3>
+                        <label>Email</label>
+                        <input type="email" placeholder="Your Email" class="box" name="email" required><br>
+                        <h6 id="e"style="color: red;"></h6>
+                        <label>Password</label>
+                        <input id="typepass"type="password" class="" name="password" placeholder="Your Password" required><br>
+                        <h6 id="pwd" style="color: red;"></h6>
+                        <div style="text-align: center;margin-right:10px;">
+                      <a href="/pdetails"><button onclick="valid()"type="button" name="reg" value="reg" class="btn btn-outline-success">Login</button></a>
+                        </form>
+                  
+                </div>
+            </div>
+        </body>
+    </html>

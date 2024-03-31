@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Appointment confirmation page</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for("static",filename="/css/appt.css")}}">
+    </head>
+    <body style="background-color: conic-gradient(from 90deg at 40% -25%, #ffd700, #f79d03, #ee6907, #e6390a, #de0d0d, #d61039, #cf1261, #c71585, #cf1261, #d61039, #de0d0d, #ee6907, #f79d03, #ffd700, #ffd700, #ffd700);">
+        <div class="container">
+            <div class="heading">
+                <h1>Appointment confirmation message</h1>
+            </div>
+             <table>
+                <tr>
+                    <td>Name</td>
+                    <td>{{name}}</td>
+                </tr>
+                <tr>
+                    <td>Number</td>
+                    <td>{{number}}</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>{{email}}</td>
+                </tr>
+                <tr>
+                    <td>Date</td>
+                    <td>{{date}}</td>
+                </tr>
+             </table>
+
+        </div>
+    </body>
+</html>
